@@ -1,0 +1,72 @@
+﻿  CommonFunc.cpp
+C:\VisualStudioProjects\SDL2Game\CommonFunc.h(53,2): warning C4091: 'typedef ': ignored on left of 'Input' when no variable is declared
+C:\VisualStudioProjects\SDL2Game\CommonFunc.h(64,2): warning C4091: 'typedef ': ignored on left of 'Map' when no variable is declared
+C:\VisualStudioProjects\SDL2Game\CommonFunc.cpp(14,31): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\VisualStudioProjects\SDL2Game\CommonFunc.cpp(15,31): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\VisualStudioProjects\SDL2Game\CommonFunc.cpp(43,35): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\VisualStudioProjects\SDL2Game\CommonFunc.cpp(44,36): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\VisualStudioProjects\SDL2Game\CommonFunc.cpp(45,35): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\VisualStudioProjects\SDL2Game\CommonFunc.cpp(46,36): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\VisualStudioProjects\SDL2Game\CommonFunc.cpp(28,18): warning C4101: 'menu': unreferenced local variable
+  game_map.cpp
+C:\VisualStudioProjects\SDL2Game\CommonFunc.h(53,2): warning C4091: 'typedef ': ignored on left of 'Input' when no variable is declared
+C:\VisualStudioProjects\SDL2Game\CommonFunc.h(64,2): warning C4091: 'typedef ': ignored on left of 'Map' when no variable is declared
+  main.cpp
+C:\VisualStudioProjects\SDL2Game\CommonFunc.h(53,2): warning C4091: 'typedef ': ignored on left of 'Input' when no variable is declared
+C:\VisualStudioProjects\SDL2Game\CommonFunc.h(64,2): warning C4091: 'typedef ': ignored on left of 'Map' when no variable is declared
+C:\VisualStudioProjects\SDL2Game\Geometric.h(15,2): warning C4091: 'typedef ': ignored on left of 'GeometricFormat' when no variable is declared
+C:\VisualStudioProjects\SDL2Game\Geometric.h(24,2): warning C4091: 'typedef ': ignored on left of 'ColorData' when no variable is declared
+C:\VisualStudioProjects\SDL2Game\main.cpp(146,29): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+C:\VisualStudioProjects\SDL2Game\main.cpp(149,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\VisualStudioProjects\SDL2Game\main.cpp(150,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\VisualStudioProjects\SDL2Game\main.cpp(167,28): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+C:\VisualStudioProjects\SDL2Game\main.cpp(191,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\VisualStudioProjects\SDL2Game\main.cpp(202,41): warning C4244: 'argument': conversion from 'double' to 'const int', possible loss of data
+C:\VisualStudioProjects\SDL2Game\main.cpp(321,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\VisualStudioProjects\SDL2Game\main.cpp(322,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\VisualStudioProjects\SDL2Game\main.cpp(399,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\VisualStudioProjects\SDL2Game\main.cpp(400,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\VisualStudioProjects\SDL2Game\main.cpp(450,53): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\VisualStudioProjects\SDL2Game\main.cpp(468,57): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\VisualStudioProjects\SDL2Game\main.cpp(482,54): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+CommonFunc.obj : error LNK2001: unresolved external symbol SDL_Delay
+CommonFunc.obj : error LNK2001: unresolved external symbol SDL_PollEvent
+CommonFunc.obj : error LNK2001: unresolved external symbol SDL_GetTicks
+CommonFunc.obj : error LNK2001: unresolved external symbol SDL_RenderPresent
+ExplosionObject.obj : error LNK2001: unresolved external symbol SDL_RenderCopy
+Geometric.obj : error LNK2001: unresolved external symbol SDL_RenderDrawRect
+Geometric.obj : error LNK2001: unresolved external symbol SDL_RenderFillRect
+Geometric.obj : error LNK2001: unresolved external symbol SDL_SetRenderDrawColor
+main.obj : error LNK2001: unresolved external symbol Mix_FreeMusic
+main.obj : error LNK2001: unresolved external symbol SDL_RenderClear
+main.obj : error LNK2001: unresolved external symbol Mix_OpenAudio
+main.obj : error LNK2001: unresolved external symbol SDL_DestroyRenderer
+main.obj : error LNK2001: unresolved external symbol Mix_Quit
+main.obj : error LNK2001: unresolved external symbol SDL_DestroyWindow
+main.obj : error LNK2001: unresolved external symbol SDL_Quit
+main.obj : error LNK2001: unresolved external symbol TTF_Init
+main.obj : error LNK2001: unresolved external symbol IMG_Init
+main.obj : error LNK2001: unresolved external symbol TTF_CloseFont
+main.obj : error LNK2001: unresolved external symbol Mix_PlayChannelTimed
+main.obj : error LNK2001: unresolved external symbol TTF_OpenFont
+main.obj : error LNK2001: unresolved external symbol SDL_CreateRenderer
+main.obj : error LNK2001: unresolved external symbol SDL_CreateWindow
+main.obj : error LNK2001: unresolved external symbol Mix_FreeChunk
+main.obj : error LNK2001: unresolved external symbol Mix_LoadMUS
+main.obj : error LNK2001: unresolved external symbol SDL_RWFromFile
+main.obj : error LNK2001: unresolved external symbol IMG_Quit
+main.obj : error LNK2001: unresolved external symbol Mix_LoadWAV_RW
+main.obj : error LNK2001: unresolved external symbol Mix_PlayMusic
+BaseObject.obj : error LNK2001: unresolved external symbol SDL_DestroyTexture
+BaseObject.obj : error LNK2001: unresolved external symbol SDL_SetColorKey
+BaseObject.obj : error LNK2001: unresolved external symbol SDL_MapRGB
+BaseObject.obj : error LNK2001: unresolved external symbol SDL_FreeSurface
+BaseObject.obj : error LNK2001: unresolved external symbol IMG_Load
+BaseObject.obj : error LNK2001: unresolved external symbol SDL_CreateTextureFromSurface
+MainObject.obj : error LNK2001: unresolved external symbol Mix_PauseMusic
+MainObject.obj : error LNK2001: unresolved external symbol Mix_ResumeMusic
+MainObject.obj : error LNK2001: unresolved external symbol Mix_PausedMusic
+TextObject.obj : error LNK2001: unresolved external symbol TTF_RenderText_Solid
+TextObject.obj : error LNK2001: unresolved external symbol SDL_RenderCopyEx
+MSVCRT.lib(exe_main.obj) : error LNK2001: unresolved external symbol main
+C:\VisualStudioProjects\SDL2Game\x64\Release\SDL2Game.exe : fatal error LNK1120: 40 unresolved externals

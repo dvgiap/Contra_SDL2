@@ -1,0 +1,11 @@
+﻿  CommonFunc.cpp
+C:\VisualStudioProjects\SDL2Game\CommonFunc.h(53,2): warning C4091: 'typedef ': ignored on left of 'Input' when no variable is declared
+C:\VisualStudioProjects\SDL2Game\CommonFunc.h(64,2): warning C4091: 'typedef ': ignored on left of 'Map' when no variable is declared
+C:\VisualStudioProjects\SDL2Game\CommonFunc.cpp(14,31): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\VisualStudioProjects\SDL2Game\CommonFunc.cpp(15,31): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\VisualStudioProjects\SDL2Game\CommonFunc.cpp(43,35): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\VisualStudioProjects\SDL2Game\CommonFunc.cpp(44,36): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\VisualStudioProjects\SDL2Game\CommonFunc.cpp(45,35): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\VisualStudioProjects\SDL2Game\CommonFunc.cpp(46,36): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\VisualStudioProjects\SDL2Game\CommonFunc.cpp(28,18): warning C4101: 'menu': unreferenced local variable
+  SDL2Game.vcxproj -> C:\VisualStudioProjects\SDL2Game\x64\Debug\SDL2Game.exe
