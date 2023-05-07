@@ -13,7 +13,7 @@
 - Khi game kết thúc, một menu đơn giản sẽ hiện ra, và cho 2 lựa chọn là chơi tiếp (Play Again) hay thoát (Exit).
 
 ## 2. Cách lấy file project về máy
-- Cách clone project về máy rất đơn giản, các bạn có thể down file .zip về sau đó giải nén, hoặc có thể tạo 1 folder mới rồi dùng git clone, hoặc đơn giản hơn nũa thì hãy tải git desktop sau đó chép đường link liên kết của project này vào và clone về
+- Cách clone project về máy rất đơn giản, các bạn có thể down file .zip về sau đó giải nén, hoặc có thể tạo 1 folder mới rồi dùng git clone, hoặc đơn giản hơn nữa thì hãy tải git desktop sau đó chép đường link liên kết của project này vào và clone về
 - Trong file project đã bao gồm cả các file cần thiết của thư viện SDL2 (có bao gồm SDL2_image, SDL2_mixer, SDL2_ttf) nên rất tiện để các bạn link trực tiếp vào project của mình
 - Project được code và build trên Visual Studio 2022, sau khi clone về chỉ cần dùng Local window debugger là game sẽ chạy và tạo file .exe , nếu như các bạn sử dụng IDE khác thì hãy lên mạng và tìm cách build file dành cho IDE đó
 
