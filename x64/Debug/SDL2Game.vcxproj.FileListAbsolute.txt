@@ -1,1 +1,2 @@
 C:\VisualStudioProjects\SDL2Game\x64\Debug\SDL2Game.exe
+C:\VisualStudioProjects\Contra_SDL2\x64\Debug\SDL2Game.exe

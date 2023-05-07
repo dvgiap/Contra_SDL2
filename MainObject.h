@@ -48,6 +48,7 @@ public:
 	void SetMoneyCount(const int& money) { money_count = money; }
 	int GetMark() const { return mark_; }
 	void set_mark_val(const int& mark_val) { mark_ = mark_val; }
+	void set_start_pos() { x_pos_ = 0; y_pos_ = 0; }
 
 private:
 

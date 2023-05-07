@@ -1,11 +1,44 @@
-﻿  CommonFunc.cpp
-C:\VisualStudioProjects\SDL2Game\CommonFunc.h(53,2): warning C4091: 'typedef ': ignored on left of 'Input' when no variable is declared
-C:\VisualStudioProjects\SDL2Game\CommonFunc.h(64,2): warning C4091: 'typedef ': ignored on left of 'Map' when no variable is declared
-C:\VisualStudioProjects\SDL2Game\CommonFunc.cpp(14,31): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\VisualStudioProjects\SDL2Game\CommonFunc.cpp(15,31): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\VisualStudioProjects\SDL2Game\CommonFunc.cpp(43,35): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\VisualStudioProjects\SDL2Game\CommonFunc.cpp(44,36): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\VisualStudioProjects\SDL2Game\CommonFunc.cpp(45,35): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\VisualStudioProjects\SDL2Game\CommonFunc.cpp(46,36): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\VisualStudioProjects\SDL2Game\CommonFunc.cpp(28,18): warning C4101: 'menu': unreferenced local variable
-  SDL2Game.vcxproj -> C:\VisualStudioProjects\SDL2Game\x64\Debug\SDL2Game.exe
+﻿  main.cpp
+C:\VisualStudioProjects\Contra_SDL2\CommonFunc.h(53,2): warning C4091: 'typedef ': ignored on left of 'Input' when no variable is declared
+C:\VisualStudioProjects\Contra_SDL2\CommonFunc.h(64,2): warning C4091: 'typedef ': ignored on left of 'Map' when no variable is declared
+C:\VisualStudioProjects\Contra_SDL2\Geometric.h(15,2): warning C4091: 'typedef ': ignored on left of 'GeometricFormat' when no variable is declared
+C:\VisualStudioProjects\Contra_SDL2\Geometric.h(24,2): warning C4091: 'typedef ': ignored on left of 'ColorData' when no variable is declared
+C:\VisualStudioProjects\Contra_SDL2\main.cpp(146,29): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\main.cpp(149,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\main.cpp(150,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\main.cpp(167,28): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\main.cpp(197,41): warning C4244: 'argument': conversion from 'double' to 'const int', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\main.cpp(213,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\main.cpp(336,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\main.cpp(337,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\main.cpp(414,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\main.cpp(415,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\main.cpp(465,53): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\main.cpp(483,57): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\main.cpp(497,54): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  MainObject.cpp
+C:\VisualStudioProjects\Contra_SDL2\CommonFunc.h(53,2): warning C4091: 'typedef ': ignored on left of 'Input' when no variable is declared
+C:\VisualStudioProjects\Contra_SDL2\CommonFunc.h(64,2): warning C4091: 'typedef ': ignored on left of 'Map' when no variable is declared
+C:\VisualStudioProjects\Contra_SDL2\MainObject.cpp(98,20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\MainObject.cpp(99,20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\MainObject.cpp(178,46): warning C4244: 'argument': conversion from 'double' to 'const int', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\MainObject.cpp(183,66): warning C4244: 'argument': conversion from 'double' to 'const int', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\MainObject.cpp(219,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\MainObject.cpp(238,26): warning C4305: '+=': truncation from 'double' to 'float'
+C:\VisualStudioProjects\Contra_SDL2\MainObject.cpp(285,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\MainObject.cpp(295,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\MainObject.cpp(316,25): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\MainObject.cpp(317,44): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\MainObject.cpp(319,14): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\MainObject.cpp(320,33): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\MainObject.cpp(347,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\MainObject.cpp(372,24): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\MainObject.cpp(383,16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\MainObject.cpp(384,28): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\MainObject.cpp(386,25): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\MainObject.cpp(387,45): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\MainObject.cpp(410,18): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\MainObject.cpp(438,24): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\VisualStudioProjects\Contra_SDL2\MainObject.cpp(451,43): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+  SDL2Game.vcxproj -> C:\VisualStudioProjects\Contra_SDL2\x64\Debug\SDL2Game.exe

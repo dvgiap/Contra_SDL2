@@ -187,19 +187,38 @@ int main(int argc, char* argv[])
 
 again_label:
 	Mix_PlayMusic(g_music, -1);
-	// random map
-	srand(time(0));
-	int rand_map = rand() % TOTAL_MAP;
-	GameMap* game_map = map_list.at(rand_map);
-	game_map->LoadTiles(g_screen, rand_map + 1);
-	MainObject p_player;  
-	p_player.LoadImg("images/player_right.png", g_screen);
-	p_player.set_clips();
+	int ret_menu = SDLCommonFunc::ShowMenu(g_screen, g_font_MENU, "Play Game", "Exit", "images//MENU.png");
+	if (ret_menu == 1) return -1;
+	
 	PlayerPower player_power;
 	player_power.Init(g_screen);
 	PlayerMoney player_money;
 	player_money.Init(g_screen);
 	player_money.SetPos(SCREEN_WIDTH * 0.5 - 300, 4);
+	TextObject time_game;
+	time_game.SetColor(TextObject::WHITE_TEXT);
+	TextObject mark_game;
+	mark_game.SetColor(TextObject::WHITE_TEXT);
+	UINT mark_value = 0;
+	TextObject money_game;
+	money_game.SetColor(TextObject::WHITE_TEXT);
+	TextObject highest_score;
+
+	int num_die = 0;
+	int money_count = 0;
+	
+	MainObject p_player;
+again_label1:
+	// random map
+	srand(time(0));
+	int rand_map = rand() % TOTAL_MAP;
+	GameMap* game_map = map_list.at(rand_map);
+	game_map->LoadTiles(g_screen, rand_map + 1);
+	
+	p_player.set_start_pos();
+	p_player.LoadImg("images/player_right.png", g_screen);
+	p_player.set_clips();
+
 	vector<ThreatsObject*> threats_list = MakeThreatList();
 
 	ExplosionObject exp_threat;
@@ -220,21 +239,7 @@ again_label:
 	}
 	exp_main.set_clip();
 
-	int num_die = 0;
-
-	TextObject time_game;
-	time_game.SetColor(TextObject::WHITE_TEXT);
-	TextObject mark_game;
-	mark_game.SetColor(TextObject::WHITE_TEXT);
-	UINT mark_value = 0;
-	TextObject money_game;
-	money_game.SetColor(TextObject::WHITE_TEXT);
-	TextObject highest_score;
-
 	bool is_quit = false;
-
-	int ret_menu = SDLCommonFunc::ShowMenu(g_screen, g_font_MENU, "Play Game", "Exit", "images//MENU.png");
-	if (ret_menu == 1) is_quit = true;
 
 	while (!is_quit)
 	{
@@ -285,6 +290,16 @@ again_label:
 				p_threat->DoPlayer(map_data);
 				p_threat->Show(g_screen);
 				SDL_Rect rect_player = p_player.GetRectFrame();
+
+				float player_x_pos = p_player.get_x_pos();
+
+				if (player_x_pos <= map_data.max_x_ && player_x_pos >= map_data.max_x_ - 128)
+				{
+					// di het map
+					SDL_Delay(500);
+					goto again_label1;
+
+				}
 				bool bCol1 = false;
 				SDL_Rect rect_threat = p_threat->GetRectFrame();
 				int dis = rect_threat.x - rect_player.x;
@@ -417,7 +432,7 @@ again_label:
 		//Show game time
 		string str_time = "Time: ";
 		Uint32 time_val = SDL_GetTicks() / 1000;
-		Uint32 val_time = 300 - time_val;
+		Uint32 val_time = 600 - time_val;
 
 		if (val_time <= 0)
 		{
@@ -468,7 +483,7 @@ again_label:
 		highest_score.RenderText(g_screen, SCREEN_WIDTH * 0.5 + 150, 15);
 
 		// hien money
-		int money_count = p_player.GetMoneyCount();
+		money_count = p_player.GetMoneyCount();
 		if (money_count >= 40)
 		{
 			player_power.Increase();
