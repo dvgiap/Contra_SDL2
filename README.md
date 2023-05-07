@@ -19,6 +19,7 @@
 
 ## 3. Các kĩ năng áp dụng trong code game
 - Đồ họa, âm thanh và text sử dụng thư viện SDL2_image, SDL2_mixer và SDL2_ttf.
-- Kỹ thuật tile map, di chuyển map theo nhân vật, random map, vô hạn map.
+- Kỹ thuật tile map, di chuyển map theo nhân vật.
+- Vô hạn map, random map.
 - Xử lý di chuyển, va chạm map, đạn bắn.
 - Xử lý thời gian, tỉ số fps.
